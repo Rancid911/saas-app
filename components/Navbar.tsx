@@ -8,16 +8,17 @@ const Navbar = () => {
         <nav className="navbar">
             <Link href="/">
                 <div className="flex items-center gap-2.5 cursor-pointer">
-                    <Image
-                        src="/images/logo.svg"
-                        alt="logo"
-                        width={46}
-                        height={44}
-                    />
+                    {/*<Image*/}
+                    {/*    src="/images/logo.svg"*/}
+                    {/*    alt="logo"*/}
+                    {/*    width={46}*/}
+                    {/*    height={44}*/}
+                    {/*/>*/}
+                   <p className="text-2xl font-bold --color-cta tracking-wide">Флексенг| английский онлайн</p>
                 </div>
             </Link>
             <div className="flex items-center gap-8">
-                <NavItems />
+            <NavItems />
                 <SignedOut>
                     <SignInButton>
                         <button className="btn-signin">Sign In</button>

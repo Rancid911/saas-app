@@ -11,7 +11,7 @@ const Page = async () => {
 
   return (
     <main>
-      <h1>Popular Companions</h1>
+      <h1>Популярное</h1>
 
         <section className="home-section">
             {companions.map((companion) => (
@@ -26,7 +26,7 @@ const Page = async () => {
 
         <section className="home-section">
             <CompanionsList
-                title="Recently completed sessions"
+                title="Недавние завершённые сессии"
                 companions={recentSessionsCompanions}
                 classNames="w-2/3 max-lg:w-full"
             />
