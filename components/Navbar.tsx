@@ -14,7 +14,7 @@ const Navbar = () => {
                     {/*    width={46}*/}
                     {/*    height={44}*/}
                     {/*/>*/}
-                   <p className="text-2xl font-bold --color-cta tracking-wide">Флексенг| английский онлайн</p>
+                   <p className="text-2xl font-bold --color-cta tracking-wide">Флексенг</p>
                 </div>
             </Link>
             <div className="flex items-center gap-8">
